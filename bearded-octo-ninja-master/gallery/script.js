@@ -14,3 +14,6 @@ $("#cat").on("click", function(){
 	$(".cat").toggle();
 });
 
+$('.filter-button').on('click', function (e) {
+  alert("Yup, it's a button.");
+});
