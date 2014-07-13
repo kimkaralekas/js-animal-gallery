@@ -1,4 +1,3 @@
-
 $("#monkey").click(function(){
 	$("this").toggle();
 	$(".monkey").toggle();
@@ -17,3 +16,4 @@ $("#cat").on("click", function(){
 $('.filter-button').on('click', function (e) {
   alert("Yup, it's a button.");
 });
+
