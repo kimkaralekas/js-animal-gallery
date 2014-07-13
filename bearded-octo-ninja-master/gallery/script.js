@@ -1,6 +1,6 @@
-// Add your code here
-$("#.filter-button").on("click", function(){
-	$(this).toggleClass("active");
+
+$("#monkey").click(function(){
+	$("this").toggle();
 	$(".monkey").toggle();
 });
 
@@ -14,4 +14,3 @@ $("#cat").on("click", function(){
 	$(".cat").toggle();
 });
 
- 
